@@ -1,0 +1,35 @@
+{
+  "name": "shipping",
+  "version": "1.0.0",
+  "description": "My finest Nuxt.js project",
+  "author": "anuradha",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "axios": "^0.18.0",
+    "child_process": "^1.0.2",
+    "cross-env": "^5.2.0",
+    "fs": "0.0.1-security",
+    "nuxt": "^2.0.0",
+    "vuetify": "^1.2.4",
+    "webpack": "^4.21.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  },
+  "browser": {
+    "child_process": false
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}
